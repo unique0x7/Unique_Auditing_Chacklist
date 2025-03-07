@@ -10,6 +10,7 @@
 - If there is an expected and disclosed element of risk of losing principal staking, can that risk be improperly manipulated?
 - Do key parameters of the protocol have admin, centralization, or governance risk?
 - The key areas to look are the areas of the code that touch the “money exit” portions of the code.
+- A corner case can be something like someone trying to claim a reward, but having nothing staked. This is valid, we should just give them zero reward. Similarly, we generally want to divide up rewards evenly, but what if there is only one recipient, and technically no division should happen?
 
 There is a “money entrance” vulnerability to look for too.
 
