@@ -1,5 +1,11 @@
 # Unique_Auditing_Chacklist
 
+## version 
+- 0.8.3 dosn't have custome error
+- 0.8.25 have `MCopy` opcode which most of the chain not support that like [Mantle](https://docs.mantle.xyz/network/for-developers/the-differences-between-mantle-op-stack-and-ethereum#unsupported-opcodes)
+- `push0` is not supported by all chains
+- https://www.evmdiff.com/features?feature=opcodes
+
 ## Vulnerabilities in staking protocols
 - Can rewards be delayed in payout, or claimed too early?
 - Can rewards be improperly reduced or increased? In the worse case, can the user be prevented from receiving any reward?
