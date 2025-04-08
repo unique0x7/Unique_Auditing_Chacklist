@@ -34,6 +34,7 @@
 
 ## LIbrary
 - `LibClone` library, is incompatible with ZKsync. [link to a report ](https://solodit.cyfrin.io/issues/factory-deployments-wont-work-correctly-on-the-zksync-chain-codehawks-biconomy-nexus-git)
+- [L-06] Protocol is using a vulnerable library version [link to a report](https://solodit.cyfrin.io/issues/l-06-protocol-is-using-a-vulnerable-library-version-pashov-none-yhairvesting-markdown)
 
 
 ## create function
