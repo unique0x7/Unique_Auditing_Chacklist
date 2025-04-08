@@ -31,4 +31,6 @@
 
 ## create function
 - is it already created?
-- 
+
+  ## create2 
+- if they using the new address for a pool attacker can create a pool in uniswap and prevent that from creating 
