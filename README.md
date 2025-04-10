@@ -28,7 +28,8 @@
 ## Liquidation 
 - The buyer’s collateral cannot be liquidated when the loan is not paid back or the collateral drops below the threshold.
 - If collateral is drained from the protocol, then both the lender and borrower lose out, since the borrower has no incentive to pay back the loan, and the borrower loses the principal.
-
+## Fees
+-   [pool can be non-profitable by specific Uniswap governance](https://code4rena.com/reports/2024-04-panoptic#m-05-panoptic-pool-can-be-non-profitable-by-specific-uniswap-governance)
   ## create2 
 - if they using the new address for a pool attacker can create a pool in uniswap and prevent that from creating
 - [CREATE2 address collision during pool deployment allows for complete draining of the pool](https://code4rena.com/reports/2024-04-panoptic#m-03-create2-address-collision-during-pool-deployment-allows-for-complete-draining-of-the-pool)
