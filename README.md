@@ -41,3 +41,6 @@
 
 ## create function
 - is it already created?
+
+## FlashLoan function 
+- Is it possible to give a flashloan and then call the deposit function to increase the balance mapping 
