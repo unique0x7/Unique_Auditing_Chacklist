@@ -53,4 +53,6 @@
   > both are same so use `abi.encode` instead
   > 
 
+## forked
+- AaveV2 forked projects often have a price manipulation vulnerability when the pool are deployed with empty liquidity.
 
