@@ -43,4 +43,14 @@
 - is it already created?
 
 ## FlashLoan function 
-- Is it possible to give a flashloan and then call the deposit function to increase the balance mapping 
+- Is it possible to give a flashloan and then call the deposit function to increase the balance mapping
+
+## abi.encodePacked
+- [when abi.encodepacked is using for hashing is have Sparator](https://github.com/orbit-chain/bridge-contract/blob/master/audit/Theori_OrbitBridge_2022_1Q.pdf)
+  > when abi.encodePacked dosn't have spaarator it can produce same hash with diffrient value
+  > fromChain = 123,  chain = 456
+  > fromChain = 123456,  chain = 0
+  > both are same so use `abi.encode` instead
+  > 
+
+
