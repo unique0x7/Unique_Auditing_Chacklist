@@ -34,7 +34,7 @@
 - The buyer’s collateral cannot be liquidated when the loan is not paid back or the collateral drops below the threshold.
 - If collateral is drained from the protocol, then both the lender and borrower lose out, since the borrower has no incentive to pay back the loan, and the borrower loses the principal.
 - Lack of slippage protection in liquidations exposes liquidators to losses [Link](https://github.com/sherlock-audit/2025-08-usg-tangent-judging/issues/263)
-
+- 5% is not enough incintive for liquidator [Link](https://github.com/sherlock-audit/2025-08-usg-tangent-judging/issues/73)
 
 
 ## Fees
