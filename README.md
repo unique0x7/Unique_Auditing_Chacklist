@@ -25,10 +25,15 @@
 ## Vote system
 - Is there any check to prevent a user from voting again in the same Epoch?
 
+## Swap
+- while swap ETH the swap router may return some ETH so their shold be a reciver/callback funciton to store that other wise rever will happen [Link](https://github.com/sherlock-audit/2025-08-usg-tangent-judging/issues/150)
+
+
+
 ## Liquidation 
 - The buyer’s collateral cannot be liquidated when the loan is not paid back or the collateral drops below the threshold.
 - If collateral is drained from the protocol, then both the lender and borrower lose out, since the borrower has no incentive to pay back the loan, and the borrower loses the principal.
-- [Lack of slippage protection in liquidations exposes liquidators to losses](https://github.com/sherlock-audit/2025-08-usg-tangent-judging/issues/263)
+- Lack of slippage protection in liquidations exposes liquidators to losses [Link](https://github.com/sherlock-audit/2025-08-usg-tangent-judging/issues/263)
 
 
 
