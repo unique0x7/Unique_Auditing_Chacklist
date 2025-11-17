@@ -60,7 +60,9 @@
   > fromChain = 123,  chain = 456
   > fromChain = 123456,  chain = 0
   > both are same so use `abi.encode` instead
-  > 
+  >
+## ChainLink
+- getPriceUSD() will return the wrong price when outside of min/max range [link](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/112) , [Link](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/197)
 
 ## forked
 - AaveV2 forked projects often have a price manipulation vulnerability when the pool are deployed with empty liquidity.
