@@ -47,6 +47,8 @@
 - `LibClone` library, is incompatible with ZKsync. [link to a report ](https://solodit.cyfrin.io/issues/factory-deployments-wont-work-correctly-on-the-zksync-chain-codehawks-biconomy-nexus-git)
 - [L-06] Protocol is using a vulnerable library version [link to a report](https://solodit.cyfrin.io/issues/l-06-protocol-is-using-a-vulnerable-library-version-pashov-none-yhairvesting-markdown)
 
+## function
+- what happens if you call the same function multiple times with smaller amounts (applies to any kind of math, not just swaps).[Link](https://www.0xsimao.com/blog/bug-deep-dive-9?categoryId=695862)
 
 ## create function
 - is it already created?
